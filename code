@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("hi you");
+            long l = 1000;
+            float n = l;
+            /*Console.WriteLine($"{n}");
+            Console.ReadLine();*/
+            char c = 'F';
+            int x = c;
+
+          /*  Console.WriteLine($"{x}");
+            Console.ReadLine();*/
+            float hh = 12.5f;
+            int xx =checked((int)hh);
+          /*  Console.WriteLine($"{xx}");
+            Console.ReadLine();*/
+            int y = 350;
+            byte b =((byte) y);
+            /*Console.WriteLine($"{b}");
+            Console.ReadLine();*/
+            double vard = 2560.95D;
+            string vars1 = Convert.ToString(vard);
+            string vars2 = vars1.Substring(5,2);
+            Console.WriteLine($"{vars2}");
+          Console.ReadLine();
+        }
+    }
+}
